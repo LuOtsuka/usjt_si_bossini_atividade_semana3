@@ -1,0 +1,68 @@
+h1{ 
+    color: #d1d1d1;
+}
+
+/* CSS para id se usa # */
+#titulo, #sub-titulo{
+    text-align: center;
+}
+
+p { 
+    border: solid px black;
+}
+
+/* CSS para class se usa . */
+p.promocao{
+    text-align: center;
+}
+
+strong{
+    color: yellow;
+    background-color: black;
+}
+
+.curso{
+    background-color: rgb(132, 175, 189);
+    color: rgb(44, 44, 44);
+    font-size: 22px;
+}
+
+
+footer#rodape{
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom:0; 
+    width:100%;
+}
+
+
+
+article p {
+    padding: 12px;
+}
+
+
+/* todo p que foi filho direto de article*/
+article > b a {
+    margin-left: 4px;
+    margin-right: 4px;
+    display: flex;
+}
+
+section > p#descricao{
+    text-align: center;
+}
+
+
+img {
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
